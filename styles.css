@@ -1,0 +1,48 @@
+styles.css
+
+QWidget {
+    background-color: #750000;  /* Couleur de fond pour tous les widgets */
+    color: #2c3e50;  /* Couleur du texte pour tous les widgets */
+}
+
+QPushButton {
+    background-color: #3498db;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid #3498db;  /* Bordure pour les boutons */
+    border-radius: 4px;  /* Coins arrondis pour les boutons */
+    padding: 5px 10px;  /* Espace à l'intérieur du bouton */
+}
+
+QPushButton:hover {
+    background-color: #1469a1;  /* Couleur de survol pour les boutons */
+    background-color: #00031b;
+    background-color: #00031b;
+}
+
+QLineEdit {
+    background-color: #ffffff;  /* Couleur de fond pour les champs de texte */
+    border: 1px solid #bdc3c7;  /* Bordure pour les champs de texte */
+    border-radius: 4px;  /* Coins arrondis pour les champs de texte */
+    padding: 5px;  /* Espace à l'intérieur du champ de texte */
+}
+
+/* Styles for QMenu */
+QMenu {
+    background-color: #ABABAB; /* sets background of the menu */
+    border: 1px solid black;
+    color: #000000; /* sets text color */
+    font-size: 16px; /* sets font size for menu text */
+}
+
+/* Styles for QAction */
+QMenu::item {
+    background-color: transparent;
+}
+
+QMenu::item:selected {
+    background-color: #654321;
+   
+}
+
